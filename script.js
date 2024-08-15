@@ -23,26 +23,24 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Emissões de gases de efeito estufa",
-                afirmacao: "esta correta"
+                afirmacao: "esta correta;"
             },
             {
                 texto: "uso de energia eólica",
-                afirmacao: "esta incorreta."
+                afirmacao: "esta incorreta;"
             }
         ]
     },
     {
-        enunciado: "Qual é o principal efeito do desmatamento na biodiversidade?
-
-?",
+        enunciado: "Qual é o principal efeito do desmatamento na biodiversidade?",
         alternativas: [
             {
                 texto: "Aumento da biodiversidade",
-                afirmacao: "esta correto
+                afirmacao: "esta correto;"
             },
             {
                 texto: "Perda de habitats e espécies",
-                afirmacao: "esta incorreta"
+                afirmacao: "esta incorreta;"
             }
         ]
     },
@@ -51,26 +49,24 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Deixar a torneira aberta enquanto escova os dentes",
-                afirmacao: "esta correta."
+                afirmacao: "esta correta;"
             },
             {
                 texto: "Reutilizar a água da chuva para regar plantas.",
-                afirmacao: "esta incorreta
-            }
+                afirmacao: "esta incorreta;"
+           }
         ]
     },
     {
-        enunciado: "Qual é uma forma eficiente de reduzir a quantidade de resíduos sólidos?
-
-? ",
+        enunciado: "Qual é uma forma eficiente de reduzir a quantidade de resíduos sólidos? ",
         alternativas: [
             {
-                texto: Jogar tudo no lixo comum",
-                afirmacao: "esta correta"
+                texto: "Jogar tudo no lixo comum",
+                afirmacao: "esta correta;"
             },
             {
                 texto: "Praticar a reciclagem e compostagem.",
-                afirmacao: "esta incorreta "
+                afirmacao: "esta incorreta;"
             }
         ]
     },
@@ -109,8 +105,8 @@ function respostaSelecionada(opcaoSelecionada) {
 }
 
 function mostraResultado() {
-    caixaPerguntas.textContent = "Em 2049...";
-    textoResultado.textContent = historiaFinal;
+    caixaPerguntas.textContent = "";
+    textoResultado.textContent =
     caixaAlternativas.textContent = "";
 }
 
